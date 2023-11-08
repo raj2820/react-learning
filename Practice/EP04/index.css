@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.res-card{
+  width: 200px;
+	/* height: 300px; */
+	/* border: 1px solid black; */
+	border-radius: 10px;
+	padding: 20px;
+	padding: 5px;
+}
+.res-card:hover{
+	border: 1px solid black;
+	cursor: pointer;
+}
+.logo > img{
+    width: 100px;
+}
+.search{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.res-card>img{
+	width: 100%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.nav-items > ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.nav-items > ul >li{
+    padding: 10px;
+    margin: 10px;
+}
